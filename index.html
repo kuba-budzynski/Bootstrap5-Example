@@ -346,8 +346,41 @@
                 <p class="grey-text px-lg-5 text-justify">Phasellus imperdiet purus at lectus volutpat vulputate. Maecenas purus libero, viverra vitae cursus vitae, posuere id velit. Aliquam pharetra, eros consectetur fermentum maximus, ipsum neque lobortis neque, in dapibus elit mauris ac augue. Proin vitae eros sed magna sollicitudin viverra. Praesent ornare feugiat lectus, mollis auctor urna sagittis quis. Nulla tellus lacus, aliquam id suscipit nec</p>
               </div>
             </div>
-            <hr class="my-5">
           </section>
+          <hr class="my-5">
+
+          <!-- Contact form -->
+          <section id="contactForm" class="container d-flex flex-column flex-lg-row mx-auto py-3">
+            <div class="col-12 col-lg-6 mx-auto mt-lg-5">
+                <p class="h1 text-secondary fw-bold text-center">Skontaktuj się z nami!</p>
+                <i class="fab fa-telegram-plane text-secondary fa-4x mx-auto d-flex justify-content-center mb-2"></i>
+            </div>
+            <div class="col-12 col-lg-6 d-flex flex-column mt-lg-5">
+              <form>
+                  <!-- Name input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="formName">Imię</label>
+                  <input type="text" id="formName" class="form-control" required/>
+                </div>
+                
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="formEmail">Email</label>
+                  <input type="email" id="formEmail" class="form-control" required/>
+                </div>
+                
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="formMessage">Wiadomość</label>
+                  <textarea class="form-control" id="formMessage" rows="4" required></textarea>
+                </div>
+            
+                <!-- Submit button -->
+                <button type="submit" class="w-100 py-2 bg-secondary text-white rounded fw-bold h5">Wyślij</button>
+              </form>
+            </div>
+          </section>
+          <hr class="my-5">
 
           <!-- Google Map -->
           <section id="map" class="mx-auto mt-5 col-12 col-lg-9">
