@@ -26,3 +26,8 @@ header,
     width:100%;
     position:absolute;
     }
+    
+    .fa-fighter-jet:hover {
+        animation: fadeOutRight 1s linear, fadeInLeft 2s linear 1s;
+    }
+    
