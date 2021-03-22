@@ -619,7 +619,9 @@
       
       <script type="text/javascript">
         $( document ).ready(function() {
-        new WOW().init();
+          if(window.innerWidth > 800 ) {
+            new WOW().init();
+          }
         });
       </script>
       <script type="text/javascript">
